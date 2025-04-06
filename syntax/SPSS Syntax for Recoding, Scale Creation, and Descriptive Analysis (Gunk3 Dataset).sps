@@ -1,4 +1,16 @@
-﻿* Encoding: UTF-8.
+*Description:
+This SPSS syntax opens the Gunk3.sav dataset and performs multiple data management tasks, including:
+
+Recoding multiple-choice responses into binary right/wrong variables.
+Reverse-coding Likert scale items to align item directionality.
+Creating composite scales for cholesterol knowledge, diet self-efficacy, and diet motivation.
+Recoding LDL cholesterol levels into both ordinal and dichotomous categories.
+Combining race and ethnicity into a single categorical variable.
+Assessing internal consistency of scales using Cronbach's alpha.
+Generating descriptive statistics and frequency distributions for key variables.
+Saving the final dataset as a compressed .sav file for further analysis.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 3/Gunk3.sav'.
