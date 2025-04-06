@@ -1,4 +1,23 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax file analyzes participation in a psychological well-being program (Enroll) and its effects on post-intervention depression scores (DepressPost), using the WorkWell-1.sav dataset. The syntax covers both predictive modeling of program enrollment and evaluation of the program’s outcomes, using a mix of logistic and linear regression analyses.
+
+Key steps include:
+
+Descriptive and frequency statistics for continuous and categorical variables.
+Dummy variable creation for race/ethnicity categories.
+Logistic regression models:
+Six univariate models predicting Enroll from potential confounders.
+One multivariable model including all six confounders.
+Linear regression models:
+Six univariate models predicting DepressPost from each confounder.
+One multivariable regression with all confounders predicting DepressPost.
+Independent t-test comparing depression scores by enrollment status.
+ANCOVA (UNIANOVA) to evaluate Enroll effect on DepressPost, controlling for DepressPre, job stress, and social support.
+Interaction/moderation analysis:
+Testing whether the effect of Enroll varies by gender or pre-intervention depression, including mean-centering and interaction terms.
+Two models for each interaction (with and without control variables).
+This syntax evaluates both predictors of program participation and whether program effectiveness differs by individual characteristics like gender and initial depression levels.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Graded Assignment 3/WorkWell-1.sav'.
