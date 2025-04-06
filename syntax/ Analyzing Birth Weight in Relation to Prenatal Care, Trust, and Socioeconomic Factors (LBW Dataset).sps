@@ -1,4 +1,13 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax explores the relationships between birth weight and a range of social, behavioral, and healthcare access variables using data from LBW.sav. The script includes:
+
+Descriptive statistics for key variables, including birth weight, perceived racism, and medical mistrust.
+Frequencies for categorical predictors such as prenatal care, insurance status, and education level.
+Simple linear regression examining the relationship between prenatal care and birth weight.
+Multiple regression models controlling for medical mistrust, insurance coverage, education level (dummy-coded), and perceived racism.
+Creation of binary dummy variables to capture different education levels and insurance status for use in regression models.
+These analyses aim to assess the extent to which social determinants and prenatal care access impact birth outcomes, particularly low birth weight (LBW).
+
+* Encoding: UTF-8.
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 8/LBW.sav'.
 DATASET NAME DataSet2 WINDOW=FRONT.
@@ -23,7 +32,7 @@ REGRESSION
   /DEPENDENT birthwgt
   /METHOD=ENTER prenatal.
 
-*Linear regression with medical mistrust index as a control variable:
+*Linear regression with medical mistrust index as a control variable.
  
 REGRESSION
   /DESCRIPTIVES MEAN STDDEV CORR SIG N
