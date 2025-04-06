@@ -1,4 +1,16 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax merges three pretest datasets (School1PRE.sav, School2PRE.sav, and School3PRE.sav) and conducts a comprehensive data preparation and analysis of students’ physical activity attitudes and outcomes. The script includes:
+
+Merging multiple datasets into a single file.
+Checking for data entry errors across demographic and item-level variables.
+Generating descriptive statistics for Likert-scale items related to value-expectancy, self-efficacy, and physical activity.
+Calculating value-expectancy scores for eight outcomes by multiplying importance ratings and likelihood scores.
+Assessing internal consistency using Cronbach’s alpha for both value-expectancy and self-efficacy scales.
+Computing scale scores for value-expectancy (VEpre) and self-efficacy (SEpre).
+Creating heart rate categories (ordinal and dichotomous) to classify fitness levels.
+Analyzing subgroup-specific outcomes by treatment condition for derived and demographic variables.
+Running correlation analyses between VEpre, SEpre, physical activity levels (PHYSACTpre), and heart rate (HRpre).
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Graded Assignment 1/School1PRE.sav'.
