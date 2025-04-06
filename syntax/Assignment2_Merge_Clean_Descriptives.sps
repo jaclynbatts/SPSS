@@ -1,4 +1,8 @@
-﻿* Encoding: UTF-8.
+*Merges survey datasets, matches on participant ID, 
+computes descriptive statistics (mean, std dev, min, max),
+and analyzes questionnaire items from LDL and psychosocial data in SPSS.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment '+
