@@ -1,4 +1,12 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax analyzes data from the Gunk4.sav file, focusing on relationships and group differences in cholesterol knowledge, self-efficacy, motivation, and LDL levels across sex, race/ethnicity, and experimental group. The procedures include:
+
+Boxplots comparing knowledge, self-efficacy, motivation, and LDL levels across sex, race/ethnicity, and treatment condition.
+Cross-tabulations examining the distribution of high vs. not high LDL across sex, race/ethnicity, and experimental group.
+Correlation analyses to assess relationships among knowledge, motivation, self-efficacy, and LDL cholesterol.
+Descriptive statistics for LDL levels by treatment condition.
+Bar chart visualization of the distribution of treatment/control group membership by sex.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 4/Gunk4.sav'.
