@@ -1,4 +1,13 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax investigates how prenatal care, health insurance, and exposure to racism—as well as their interactions—affect infant birth weight using linear regression models. Key steps include:
+
+Running a simple linear regression with birth weight as the dependent variable and prenatal care as the sole predictor.
+Creating an interaction term (prenatXins) between prenatal care and insurance status, followed by regression analysis including the interaction term.
+Mean-centering the perceived racism variable (racism) and creating an interaction term (PreXRac) between prenatal care and centered racism.
+Running a moderated regression model to test whether perceived racism moderates the relationship between prenatal care and birth weight.
+These analyses assess both main effects and moderating effects, providing insight into how structural and interpersonal factors may influence infant health outcomes.
+
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 10/LBW (2).sav'.
