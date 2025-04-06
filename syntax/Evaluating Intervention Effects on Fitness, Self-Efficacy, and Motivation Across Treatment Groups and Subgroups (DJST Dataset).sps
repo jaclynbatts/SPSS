@@ -1,4 +1,16 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax analyzes the impact of a school-based intervention on physical activity, cardiovascular fitness, self-efficacy, and value-expectancy using the DJSTPrePost.sav dataset. The analysis includes both full-sample and subgroup evaluations, using appropriate statistical tests for repeated measures and small sample sizes. Key steps include:
+
+Pretest-posttest paired sample t-tests within the treatment group for continuous variables.
+Nonparametric tests:
+McNemar's test to assess change in proportions of poor fitness (binary HR classification).
+Wilcoxon signed-rank tests for ordinal fitness categories and small sample subgroup comparisons.
+Between-group posttest comparisons using independent samples t-tests and Mann-Whitney U tests.
+Chi-square test comparing posttest poor fitness proportions by treatment group.
+ANCOVA models (UNIANOVA) for each continuous outcome, controlling for pretest values to evaluate treatment effect.
+Subgroup analysis of boys and girls in Clara Barton school, using nonparametric tests appropriate for small sample sizes to compare pre-post change and between-group differences.
+This comprehensive approach allows for both broad and nuanced evaluation of intervention effectiveness across behavioral and physiological outcomes.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Graded Assignment 2/DJSTPrePost.sav'.
