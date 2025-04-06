@@ -1,4 +1,13 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax analyzes data from the Gunk5.sav file to evaluate the effectiveness of an intervention targeting cholesterol knowledge, self-efficacy, motivation, and LDL cholesterol levels. Multiple research designs and statistical tests are employed to assess treatment effects in both the general sample and Hispanic/Latino subgroups. Key components include:
+
+Paired sample t-tests to test pretest-posttest differences in the treatment group only.
+Wilcoxon signed-rank tests for nonparametric comparison of pre- and post-intervention scores in Hispanic/Latino participants.
+Independent sample t-tests comparing posttest outcomes between treatment and control groups.
+Mann-Whitney U tests for subgroup-specific posttest-only comparisons in Hispanic/Latino participants.
+ANCOVA models (pretest-posttest control group design) to compare posttest outcomes while controlling for 
+pretest values across knowledge, self-efficacy, motivation, and LDL cholesterol.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 5/Gunk5.sav'.
