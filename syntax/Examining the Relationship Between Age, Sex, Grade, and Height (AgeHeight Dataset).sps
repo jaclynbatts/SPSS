@@ -1,4 +1,15 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax analyzes data from the AgeHeight.sav file to examine how height varies in relation to age, sex, and academic grade level. It applies multiple statistical techniques, including:
+
+Scatterplot visualization of the relationship between age and height.
+Simple linear regression to assess how age predicts height.
+Creation of a dummy variable to represent male gender.
+Regression analysis testing the relationship between height and gender (via the dummy variable).
+Independent samples t-test to compare average height between boys and girls.
+Multiple linear regression to examine the relationship between height and grade level using dummy variables.
+One-way ANOVA to test height differences across grade levels and perform post-hoc comparisons.
+These analyses provide insight into developmental trends and group differences in height among children.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 7/AgeHeight.sav'.
