@@ -1,4 +1,12 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax analyzes LDL cholesterol outcomes from the Gunk6.sav dataset using both pretest-posttest and posttest-only control group designs. The analyses include:
+
+Filtering treatment group participants for one-group pretest-posttest comparisons.
+McNemar’s test to evaluate changes in binary LDL status (high vs. not high) before and after the intervention.
+Wilcoxon Signed-Ranks test to compare ordinal LDL categories pre- and post-intervention within the treatment group.
+Chi-square test for posttest-only comparisons between treatment and control groups on LDL status.
+Mann-Whitney U test to assess post-intervention ordinal LDL category differences by treatment group.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/kissmysoles/Desktop/Practical Data Management /Practice Assignment 6/Gunk6.sav'.
