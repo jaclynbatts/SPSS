@@ -1,4 +1,10 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax imports Excel data from the file Gunk1.xlsx into SPSS, 
+reads variable names from the first row, and assigns appropriate variable and value labels for survey questions 
+related to cholesterol knowledge, demographic variables (e.g., sex, race, ethnicity), 
+and attitudes toward low-cholesterol (LC) diets. The dataset is then saved as a compressed .sav file for future analysis.
+
+
+* Encoding: UTF-8.
 
 
 GET DATA
