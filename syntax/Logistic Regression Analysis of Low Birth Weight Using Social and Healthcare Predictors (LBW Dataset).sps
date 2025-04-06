@@ -1,4 +1,15 @@
-﻿* Encoding: UTF-8.
+*This SPSS syntax examines predictors of low birth weight (LBW) using a series of logistic regression models. The dataset (LBW (1).sav) is used to assess how prenatal care, medical mistrust, health insurance status, education level, and perceived racism relate to the likelihood of an infant being born under 2500 grams. Key steps include:
+
+Creating a binary variable (lowbw) to indicate low birth weight status.
+Running descriptive statistics and frequencies for all variables including the derived indicator.
+Building a series of logistic regression models:
+Model 1: Prenatal care as the sole predictor of LBW.
+Model 2: Controlling for medical mistrust.
+Model 3: A full model including prenatal care, mistrust, insurance, dummy-coded education levels, and perceived racism.
+Dummy coding education into five categorical variables for inclusion in regression modeling.
+Interpreting odds ratios and model fit to assess which social and structural variables significantly influence LBW outcomes.
+
+* Encoding: UTF-8.
 
 GET
   FILE='/Users/laffy/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Practical Data '+
